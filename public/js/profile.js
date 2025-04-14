@@ -1,6 +1,6 @@
   // import { fetchAndRenderDashboardCharts } from './dashboard.js';
 
-const API_URL = 'https://polarix-finance-manager.onrender.com';
+const API_URL = 'https://polarix-finance-manager.onrender.com/api';
 const USD_TO_INR_RATE = 1; // No conversion needed, all amounts in INR
 
 
