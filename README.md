@@ -1,60 +1,129 @@
-# Polari X Finance Manager
+💸 Polari X – Finance Manager
 
-**Live Demo:** [polari-x-finance-manager.vercel.app](https://polari-x-finance-manager.vercel.app/)
+🔗 Live Demo: https://polari-x-finance-manager.vercel.app/
 
-Polari X Finance Manager is a personal finance dashboard built to help users visually track their income, expenses, assets, and liabilities. The dashboard features interactive charts, intuitive UI, and data visualization components to simplify financial tracking and decision-making.
+Polari X Finance Manager is an interactive personal finance dashboard designed to help users visually track income, expenses, assets, and liabilities. It simplifies financial understanding using dynamic charts, intuitive UI, and smart data visualization.
 
----
+Built with a focus on clarity, usability, and modern fintech-style design.
 
-## 🌟 Features
+🌟 Key Features
+📊 Smart Financial Dashboard
 
-- 📊 **Comprehensive Finance Dashboard**:
-  - Combined **Income & Spending** line chart
-  - **Income - Expense** line chart
-  - Combined **Assets & Liabilities** full-width graph
-  - Multiple **pie charts** for category-wise distribution
-  - Horizontal **bar graphs** for income sources and expenses
+Combined Income & Spending trend analysis
 
-- 🔄 **Interactive Flip Cards**:
-  - Flip pie charts to view detailed **distribution tables**
+Income vs Expense comparison line graph
 
-- 🎨 **Clean UI & Modern Design**:
-  - Inspired by **Cred.club** with improved black background and vibrant color palettes
-  - Minimalist and responsive layout
+Full-width Assets & Liabilities growth visualization
 
-- 🔀 **Toggle Features**:
-  - Monthly/Yearly toggle
-  - Light/Dark mode switch
+Category-based pie charts for financial breakdown
 
-- 🧾 **User Profile Management**:
-  - Editable fields: name, occupation, contact, city, date of birth, etc.
-  - Data persistence using MongoDB
+Horizontal bar graphs for:
 
-- 🔐 **Authentication System**:
-  - Signup & Login with MongoDB + Node.js + Express
+Income sources
 
----
+Expense categories
 
-## 🧱 Tech Stack
+🔄 Interactive Data Experience
 
-- **Frontend**:
-  - HTML, CSS, JavaScript
-  - Chart.js for dynamic chart rendering
+Flip Cards: Flip charts to reveal detailed data tables
 
-- **Backend**:
-  - Node.js, Express.js
-  - MongoDB (via Mongoose) for storing user and financial data
+Dynamic Visualization powered by Chart.js
 
-- **Deployment**:
-  - Vercel (Frontend)
-  - Render / Railway / Cyclic (Backend)
+Designed to make complex finance data easy to understand
 
----
+🎨 Modern UI/UX
 
-## 🚀 Getting Started
+Inspired by Cred.club design aesthetics
 
-### 1. Clone the Repository
+Clean, minimal layout with vibrant chart colors
 
-```bash
+Dark-mode optimized black background
+
+Fully responsive design
+
+🔀 User Controls
+
+📅 Monthly / Yearly toggle
+
+🌗 Light / Dark mode switch
+
+🧾 User Profile System
+
+Users can store and manage:
+
+Name
+
+Occupation
+
+Contact details
+
+City
+
+Date of Birth
+
+All data is securely stored in MongoDB.
+
+🔐 Authentication
+
+Secure Signup & Login
+
+Backend validation using Node.js + Express
+
+Database integration with MongoDB (Mongoose)
+
+
+
+🧱 Tech Stack
+
+🎯 Frontend
+
+HTML
+
+CSS
+
+JavaScript
+
+Chart.js (data visualization)
+
+⚙ Backend
+
+Node.js
+
+Express.js
+
+MongoDB + Mongoose
+
+🚀 Deployment
+
+Frontend: Vercel
+
+Backend: Render / Railway / Cyclic
+
+👩‍💻 Team & Credits
+
+🎨 Frontend Development - 	Sakshi Saini
+🧠 UI/UX Design - 	Sakshi Saini
+⚙ Backend Development -	Pulkit Sachdeva
+
+🎯 Project Goal
+Polari X was built to make financial tracking visual, intuitive, and engaging rather than overwhelming. The goal is to empower users to understand their financial health at a glance and make smarter financial decisions.
+
+🚀 Getting Started
 git clone https://github.com/your-username/polari-x-finance-manager.git
 cd polari-x-finance-manager
+
+
+Install dependencies and run server:
+
+npm install
+npm start
+
+💡 Future Improvements
+
+Budget planning module
+
+Savings & goal tracker
+
+Financial health score
+
+AI-based spending insights
