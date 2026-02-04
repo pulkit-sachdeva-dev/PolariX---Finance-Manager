@@ -1,129 +1,129 @@
 💸 Polari X – Finance Manager
 
+A modern personal finance dashboard that helps users track income, expenses, assets, and liabilities through interactive visualizations and an intuitive fintech-style interface.
+
 🔗 Live Demo: https://polari-x-finance-manager.vercel.app/
 
-Polari X Finance Manager is an interactive personal finance dashboard designed to help users visually track income, expenses, assets, and liabilities. It simplifies financial understanding using dynamic charts, intuitive UI, and smart data visualization.
+🚀 Project Overview
 
-Built with a focus on clarity, usability, and modern fintech-style design.
+Polari X is a smart financial management platform built to simplify how individuals understand their money. Instead of boring spreadsheets, users get visual insights, dynamic charts, and a clean UI that makes financial tracking easy and engaging.
 
-🌟 Key Features
-📊 Smart Financial Dashboard
+It combines data visualization, user authentication, and profile management into one seamless experience.
 
-Combined Income & Spending trend analysis
+🧩 Features
 
-Income vs Expense comparison line graph
+📊 Comprehensive Finance Dashboard
 
-Full-width Assets & Liabilities growth visualization
-
-Category-based pie charts for financial breakdown
-
-Horizontal bar graphs for:
-
-Income sources
-
-Expense categories
+-  Income & Spending trend analysis
+-  Income vs Expense comparison graph
+-  Assets & Liabilities growth visualization
+-  Category-based pie charts
+-  Horizontal bar graphs for financial breakdown
 
 🔄 Interactive Data Experience
 
-Flip Cards: Flip charts to reveal detailed data tables
-
-Dynamic Visualization powered by Chart.js
-
-Designed to make complex finance data easy to understand
+- Flip cards reveal detailed data tables
+- Dynamic charts powered by Chart.js
 
 🎨 Modern UI/UX
 
-Inspired by Cred.club design aesthetics
-
-Clean, minimal layout with vibrant chart colors
-
-Dark-mode optimized black background
-
-Fully responsive design
+- Inspired by Cred.club aesthetics
+- Clean, minimal, responsive layout
+- Vibrant chart colors on dark theme
 
 🔀 User Controls
 
-📅 Monthly / Yearly toggle
+- Monthly / Yearly data toggle
+- Light / Dark mode switch
 
-🌗 Light / Dark mode switch
+🧾 User Profile Management
 
-🧾 User Profile System
+- Name, occupation, contact, city, DOB
+- Persistent storage using MongoDB
 
-Users can store and manage:
+🔐 Authentication System
 
-Name
+- Secure Signup & Login
+- Backend validation via Node.js + Express
 
-Occupation
+🏗️ Tech Stack
 
-Contact details
+- Frontend	HTML, CSS, JavaScript, Chart.js
+- Backend	Node.js, Express.js
+-  Database	MongoDB (Mongoose)
+-  Authentication	Express + MongoDB
+-  Deployment	Vercel (Frontend), Render/Railway/Cyclic (Backend)
+  
+🔁 Application Workflow
 
-City
+- User signs up or logs in securely
+- User enters financial details (income, expenses, assets, liabilities)
+- Data is stored in MongoDB
+- Dashboard fetches data and renders:
+- Line graphs
+- Pie charts
+- Bar charts
+- User can toggle:
+- Monthly/Yearly view
+- Light/Dark mode
 
-Date of Birth
+Profile details are editable and persist in database
 
-All data is securely stored in MongoDB.
+📦 Project Structure
+│
+├── /frontend
+│   ├── index.html
+│   ├── style.css
+│   ├── script.js
+│   └── charts.js
+│
+├── /backend
+│   ├── server.js
+│   ├── routes/
+│   ├── models/
+│   └── controllers/
+│
+└── README.md
 
-🔐 Authentication
+⚙️ Backend Details
 
-Secure Signup & Login
+Runtime: Node.js
 
-Backend validation using Node.js + Express
+Framework: Express.js
 
-Database integration with MongoDB (Mongoose)
+Database: MongoDB (Mongoose)
 
+Handles:
 
+User authentication
 
-🧱 Tech Stack
+Profile storage
 
-🎯 Frontend
+Financial data storage
 
-HTML
+🛠️ Setup Instructions
+📌 Prerequisites
 
-CSS
+Node.js & npm
 
-JavaScript
+MongoDB Atlas / Local MongoDB
 
-Chart.js (data visualization)
-
-⚙ Backend
-
-Node.js
-
-Express.js
-
-MongoDB + Mongoose
-
-🚀 Deployment
-
-Frontend: Vercel
-
-Backend: Render / Railway / Cyclic
-
-👩‍💻 Team & Credits
-
-🎨 Frontend Development - 	Sakshi Saini
-🧠 UI/UX Design - 	Sakshi Saini
-⚙ Backend Development -	Pulkit Sachdeva
-
-🎯 Project Goal
-Polari X was built to make financial tracking visual, intuitive, and engaging rather than overwhelming. The goal is to empower users to understand their financial health at a glance and make smarter financial decisions.
-
-🚀 Getting Started
+📥 Installation
+# Clone repo
 git clone https://github.com/your-username/polari-x-finance-manager.git
 cd polari-x-finance-manager
 
-
-Install dependencies and run server:
-
+# Install backend dependencies
 npm install
+
+# Start server
 npm start
 
-💡 Future Improvements
+👩‍💻 Team & Credits
 
-Budget planning module
+👩‍💻 Sakshi Saini – Frontend Developer & UI/UX Designer
+👨‍💻 Pulkit Sachdeva – Backend Developer
 
-Savings & goal tracker
+🎯 Project Vision
 
-Financial health score
-
-AI-based spending insights
+Polari X aims to transform financial tracking from complex and overwhelming to visual, intuitive, and empowering, helping users make smarter financial decisions with clarity.
