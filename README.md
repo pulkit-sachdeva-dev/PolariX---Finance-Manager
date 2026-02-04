@@ -122,6 +122,7 @@ npm start
 👩‍💻 Team & Credits
 
 👩‍💻 Sakshi Saini – Frontend Developer & UI/UX Designer
+
 👨‍💻 Pulkit Sachdeva – Backend Developer
 
 🎯 Project Vision
