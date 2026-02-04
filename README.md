@@ -127,4 +127,4 @@ npm start
 
 🎯 Project Vision
 
-Polari X aims to transform financial tracking from complex and overwhelming to visual, intuitive, and empowering, helping users make smarter financial decisions with clarity.
+ 💸 Polarix aims to transform financial tracking from complex and overwhelming to visual, intuitive, and empowering, helping users make smarter financial decisions with clarity.
